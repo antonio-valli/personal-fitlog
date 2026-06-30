@@ -38,6 +38,7 @@ The project is ready for implementation.
 ## Next Steps
 
 - Design the dashboard layout
+- Potentially migrate to REACT framework (still deciding)
 - Build the HTML structure
 - Begin implementing the first application screen
 

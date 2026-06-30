@@ -1,16 +1,110 @@
-# React + Vite
+# FitLog
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A personal fitness tracking web application built around my own weight loss journey while learning modern software engineering practices.
 
-Currently, two official plugins are available:
+Rather than creating a generic gym tracker, FitLog is designed specifically around the information I care about every day—tracking body weight, calorie intake, protein intake and workouts. This project is the first in my software engineering portfolio and documents the complete development process from planning through to deployment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Project Goals
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Build a clean and responsive fitness tracking application
+- Strengthen my React and JavaScript fundamentals
+- Learn professional Git and GitHub workflows
+- Practise software planning, documentation and version control
+- Create a polished portfolio project demonstrating software engineering fundamentals
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Planned Features
+
+- Dashboard overview
+- Daily weight tracking
+- Workout logging
+- Nutrition tracking
+- Progress history
+- Responsive user interface
+
+---
+
+## Tech Stack
+
+### Frontend
+
+- React
+- JavaScript
+- CSS
+- HTML
+
+### Development Tools
+
+- Vite
+- Git
+- GitHub
+- Visual Studio Code
+
+---
+
+## Project Status
+
+🟡 **In Development**
+
+Current Stage:
+
+- ✅ Repository created
+- ✅ Project planned
+- ✅ React environment configured
+- 🚧 Building application interface
+- ⏳ Functionality coming next
+
+---
+
+## Repository Structure
+
+```text
+fitlog/
+│
+├── assets/
+├── checkpoints/
+├── docs/
+├── src/
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+
+---
+
+## Development Roadmap
+
+- Repository Setup
+- Project Planning
+- React Environment
+- Dashboard Interface
+- Weight Tracking
+- Nutrition Tracking
+- Workout Logging
+- Progress History
+- UI Improvements
+- Testing
+- Final Documentation
+
+---
+
+## Screenshots
+
+Screenshots will be added as development progresses.
+
+---
+
+## Why I Built This
+
+I wanted to build something that I would genuinely use every day.
+
+As someone currently working towards losing weight while maintaining muscle, I wanted a simple application tailored to my own routine instead of relying on generic fitness apps. At the same time, this project provides an opportunity to learn React, improve my software engineering skills, and document a professional development process from start to finish.
+
+---
+
+## License
+
+This project is licensed under the MIT License.
