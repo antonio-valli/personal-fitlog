@@ -1,54 +1,16 @@
-# FitLog
+# React + Vite
 
-## Overview
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-FitLog is a personal fitness tracking web application built to support my own weight loss journey while learning software engineering fundamentals.
+Currently, two official plugins are available:
 
-Rather than creating a generic gym tracker, this project is designed around the metrics that matter most to me, including daily weight, calorie intake, protein intake, and workout tracking. The goal is to create a simple tool that I genuinely use while documenting the complete software development process from planning through to deployment.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
----
+## React Compiler
 
-## Project Goals
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-- Build a clean and responsive fitness tracking application
-- Strengthen my HTML, CSS and JavaScript skills
-- Learn professional Git and GitHub workflows
-- Practise planning and documenting software projects
-- Create a polished portfolio project that demonstrates software engineering fundamentals
+## Expanding the Oxlint configuration
 
----
-
-## Planned Features
-
-- Daily dashboard
-- Weight tracking
-- Workout logging
-- Food tracking
-- Progress history
-
----
-
-## Tech Stack
-
-- HTML
-- CSS
-- JavaScript
-
----
-
-## Development Status
-
-Planning
-
-This project is currently in the planning phase. Development progress is documented through checkpoints and regular commits.
-
----
-
-## Repository Structure
-
-```text
-assets/
-checkpoints/
-docs/
-src/
-README.md
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
