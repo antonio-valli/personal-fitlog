@@ -1,8 +1,15 @@
+import Header from "./components/Header";
+import SummaryCards from "./components/SummaryCards";
+import "./styles/App.css";
+
 function App() {
   return (
-    <div>
-      <h1>FitLog</h1>
-      <p>Personal Fitness Dashboard</p>
+    <div className="app">
+      <Header />
+
+      <main className="dashboard">
+        <SummaryCards />
+      </main>
     </div>
   );
 }
